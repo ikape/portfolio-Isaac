@@ -229,7 +229,7 @@ header.sticky{
 }
 .box{
 	background: var(--bg-color);
-	padding: 35px 45px;
+	padding: 30px 25px;
 	border-radius: 8px;
 	transition: all .45s ease;
 }
@@ -337,7 +337,8 @@ header.sticky{
 .contact{
 	background: var(--second-bg-color);
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr); 
+	/* added 1 instead of when i have two in the repeat */
 	align-items: center;
 	gap: 2.5rem;
 }

@@ -85,7 +85,7 @@ section {
 }
 .slide {
   margin-bottom: 20px;
-  animation: moveInLeft 1s ease-out;
+  animation: moveInRight 5s ease-in-out;
 }
 .one {
   display: inline-block;
@@ -111,22 +111,12 @@ section {
   color: var(--text-color);
   line-height: 1.1;
   margin: 0 0 8px;
+  /*  */
   animation-name: moveInLeft;
-  animation-duration: 1s;
-  /* animation-delay: 3s; */
-  /* animation-iteration-count: 3; */
-  /* animation-timing-function: ease-out; */
+  animation-duration: 10s;
   animation-timing-function: ease-in;
-  /* animation-timing-function: ease; */
-}
-.home-text h1:hover {
-  animation-name: moveInLeft;
-  animation-duration: 3s;
   animation-delay: 3s;
-  /* animation-iteration-count: 3; */
-  animation-timing-function: ease-out;
-  /* animation-timing-function: ease-in; */
-  /* animation-timing-function: ease; */
+  animation-iteration-count: 5;
 }
 
 .home-text h3 {
@@ -139,9 +129,7 @@ section {
   animation-duration: 10s;
   /* animation-delay: 5s; */
   animation-iteration-count: 3;
-  /* animation-timing-function: ease-out; */
-  /* animation-timing-function: ease-in; */
-  animation-timing-function: ease;
+  animation-timing-function: ease-out;
 }
 .home-text p {
   color: var(--second-color);
@@ -231,6 +219,7 @@ header.sticky {
   margin-bottom: 4rem;
   backface-visibility: hidden;
   animation: moveInRight 10s ease-out;
+  animation-delay: 3s;
 }
 
 .services {
@@ -370,6 +359,7 @@ header.sticky {
   align-items: center;
   gap: 2.5rem;
   animation: moveInRight 15s ease-in-out;
+  animation-delay: 5s;
 }
 .contact-text h4 {
   color: var(--text-color);
